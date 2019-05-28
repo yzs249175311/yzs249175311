@@ -1822,7 +1822,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #8f8aad;
+  background: #01ffff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2905,7 +2905,9 @@ hr {
   }
 }
 body {
-  background-image: url("/images/background.png");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  background: url("/images/dnf/shenqiangshou.png"), url("/images/dnf/baihua.png");
+  background-repeat: no-repeat, no-repeat;
+  background-attachment: fixed, fixed;
+  background-position: right bottom, left -100px bottom;
+  background-size: 25%, 25%;
 }
